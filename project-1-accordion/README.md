@@ -1,16 +1,77 @@
-# React + Vite
+# 📂 Accordion React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This is a simple and interactive Accordion project built using **React**.
+It allows users to expand and collapse content with two different modes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔹 Single Selection Mode
 
-## Expanding the ESLint configuration
+* Only **one item can be open at a time**
+* When a new item is clicked:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Previous item automatically closes
+  * New item opens
+
+### 🔹 Multiple Selection Mode
+
+* Users can open **multiple items at the same time**
+* Clicking on items will:
+
+  * Keep all selected items open
+  * Allow flexible interaction
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* JavaScript (ES6+)
+* CSS
+
+---
+
+## 📸 Functionality
+
+* Clean UI with expandable sections
+* Toggle between single and multiple selection modes
+* Smooth user interaction
+
+---
+
+## 🌐 Live Demo
+
+👉 [Click Here to View Live Project](https://project-1-accordion.vercel.app/)
+
+---
+
+## 📁 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+---
+
+## 🎯 Learning Outcome
+
+* Learned how to manage state in React
+* Implemented conditional rendering
+* Practiced handling user interactions
+* Understood single vs multiple selection logic
+
+---
+
+## 🙌 Author
+
+**Ashish Singh**
+
+---
