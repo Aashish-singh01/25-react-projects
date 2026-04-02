@@ -1,0 +1,41 @@
+/* 1. Global Reset & Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Ensure padding/border don't affect width */
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Document & Body Defaults */
+html {
+  font-size: 62.5%;
+  /* Sets 1rem = 10px (based on browser 16px default) */
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1.6rem;
+  /* Restores text to standard 16px */
+  min-height: 100vh;
+}
+
+
+
+
+
+/* 4. Accessibility & Layout Helpers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
