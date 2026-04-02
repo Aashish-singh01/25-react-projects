@@ -1,16 +1,73 @@
-# React + Vite
+# 🎨 Random Color Generator (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This is a simple and interactive **Random Color Generator** built using **React**.
+It allows users to generate random colors in both **HEX** and **RGB** formats.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔹 HEX Color Mode
 
-## Expanding the ESLint configuration
+* User clicks on **"Create HEX Color"**
+* Then clicks **"Generate Random Color"**
+* The background color changes in **HEX format only**
+* The HEX color code is displayed on screen
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🔹 RGB Color Mode
+
+* User clicks on **"Create RGB Color"**
+* Then clicks **"Generate Random Color"**
+* The background color changes in **RGB format only**
+* The RGB color code is displayed on screen
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* JavaScript (ES6+)
+* CSS
+
+---
+
+## 📸 Functionality
+
+* Dynamic background color change
+* Toggle between HEX and RGB modes
+* Displays current color code
+* Clean and interactive UI
+
+---
+
+## 🌐 Live Demo
+
+👉 [Click Here to View Live Project](YOUR_LIVE_LINK_HERE)
+
+---
+
+## 📁 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+---
+
+## 🎯 Learning Outcome
+
+* Learned React state management
+* Implemented conditional logic for color formats
+* Practiced event handling in React
+* Improved UI interaction skills
+
+---
+
