@@ -93,6 +93,8 @@ npm run dev
 * Add animations
 * Mobile responsiveness improvements
 
+live demo   (https://star-rating-smoky.vercel.app/)
+
 
 
 This project is open-source and available under the MIT License.
