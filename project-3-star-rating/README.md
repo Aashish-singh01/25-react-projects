@@ -1,16 +1,98 @@
-# React + Vite
+# ⭐ Star Rating App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Star Rating Component** built using React.
+Users can hover over stars to preview ratings and click to select their rating.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ⭐ Dynamic star rendering
+* 🖱️ Hover effect (preview rating)
+* 🎯 Click to set rating
+* 🔄 Real-time UI update
+* 🎨 Clean and simple UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (useState)
+* JavaScript (ES6)
+* CSS
+* React Icons
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── App.jsx
+│── style.css
+```
+
+---
+
+## ⚙️ How It Works
+
+* `useState` is used to manage:
+
+  * `rating` → selected rating
+  * `hover` → temporary hover state
+* Stars are generated dynamically using an array loop
+* Mouse events control the behavior:
+
+  * `onMouseMove` → preview rating
+  * `onClick` → set rating
+  * `onMouseLeave` → reset hover to selected rating
+
+---
+
+## 📸 Preview
+
+Star rating system where:
+
+* Hover highlights stars ⭐
+* Click locks the rating 🎯
+
+---
+
+## ▶️ Run Locally
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/star-rating-app.git
+```
+
+2. Navigate to project folder
+
+```
+cd star-rating-app
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start development server
+
+```
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+* Half star rating ⭐✨
+* Save rating to backend/API
+* Add animations
+* Mobile responsiveness improvements
+
+
+
+This project is open-source and available under the MIT License.
