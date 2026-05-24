@@ -1,16 +1,141 @@
-# React + Vite
+# ❌⭕ Tic Tac Toe Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Tic Tac Toe game** built with React where two players can play turn by turn. The game automatically detects winners, draw conditions, and allows restarting the game.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ❌⭕ Two-player gameplay
+* 🎯 Winner detection logic
+* 🤝 Draw detection
+* 🔄 Restart game functionality
+* ⚡ Dynamic game status updates
+* 🧠 Uses React Hooks (`useState`, `useEffect`)
+* 🎨 Clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6)
+* CSS
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│── App.jsx
+│── index.css
+```
+
+---
+
+## ⚙️ How It Works
+
+### Game Flow
+
+1. Game starts with Player **X**
+2. Players take turns clicking squares
+3. After every move:
+
+   * Winner logic checks all winning patterns
+   * Draw condition is checked
+   * Game status updates automatically
+4. If a winner exists:
+
+   * Displays winner message
+5. Restart button resets the board
+
+---
+
+## 🧠 Concepts Used
+
+* useState
+* useEffect
+* Conditional Rendering
+* Event Handling
+* Array Methods
+* Component Reusability
+* Game Logic Implementation
+
+---
+
+## 🏆 Winning Patterns
+
+The game checks these combinations:
+
+```javascript
+[
+ [0,1,2],
+ [3,4,5],
+ [6,7,8],
+
+ [0,3,6],
+ [1,4,7],
+ [2,5,8],
+
+ [0,4,8],
+ [2,4,6]
+]
+```
+
+---
+
+## ▶️ Run Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/tic-tac-toe-react.git
+```
+
+Go to project folder
+
+```bash
+cd tic-tac-toe-react
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+* 🤖 Add AI opponent
+* 🎵 Add sound effects
+* 🎨 Add animations
+* 🌙 Dark mode
+* 📱 Better responsive design
+* 🏆 Scoreboard tracking
+
+---
+
+## 📸 Preview
+
+Play the classic Tic Tac Toe game with a clean and interactive interface.
+
+---
+
+## 🙌 Author
+
+Ashish Singh
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
