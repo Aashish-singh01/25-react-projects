@@ -1,3 +1,5 @@
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+
 import { useEffect, useState } from "react";
 import Search from "../search";
 
@@ -10,7 +12,7 @@ export default function Weather() {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=${import.meta.env.VITE_WEATHER_API_KEY}`,
+        `https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=${API_KEY}`,
       );
 
       const data = await response.json();
