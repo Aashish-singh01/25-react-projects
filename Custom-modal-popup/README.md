@@ -1,16 +1,154 @@
-# React + Vite
+# Custom Modal Popup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project that demonstrates how to create a **Custom Modal Popup Component**. The modal can be opened and closed dynamically, providing a clean and interactive way to display additional content, notifications, forms, or important information without navigating away from the current page.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add your deployed project link here:
 
-## React Compiler
+```bash
+https://your-live-demo-link.com
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+```bash
+https://github.com/Aashish-singh01/25-react-projects/tree/main/Custom-modal-popup
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 Overview
+
+This project showcases the implementation of a reusable modal popup component using React.
+
+The modal:
+
+- Opens on user interaction
+- Displays custom content
+- Can be closed using a button
+- Appears above the main content using an overlay
+- Enhances user experience with focused interactions
+
+Custom modals are commonly used for confirmations, forms, alerts, login screens, and detailed content views.
+
+## ✨ Features
+
+- 🪟 Custom Modal Component
+- 🎯 Open & Close Functionality
+- ⚡ Dynamic Content Rendering
+- 🌑 Background Overlay
+- ♻️ Reusable Component Design
+- 📱 Responsive Layout
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- CSS
+- Vite
+- React Hooks
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Aashish-singh01/25-react-projects.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd 25-react-projects/Custom-modal-popup
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
+
+```bash
+Custom-modal-popup/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Modal.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── README.md
+```
+
+## 🚀 How It Works
+
+1. User clicks the "Open Modal" button.
+2. React state changes to show the modal.
+3. A modal overlay appears above the page content.
+4. The user interacts with the modal content.
+5. Clicking the close button hides the modal.
+6. The application returns to its normal view.
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- React State Management
+- Conditional Rendering
+- Component Reusability
+- Event Handling
+- Overlay and Modal Design
+- User Interface Development
+
+## 💡 Use Cases
+
+- Login & Signup Forms
+- Alert Messages
+- Confirmation Dialogs
+- Product Details
+- Terms & Conditions
+- Notifications
+
+## 🔮 Future Improvements
+
+- Close Modal on Outside Click
+- ESC Key Support
+- Animated Transitions
+- Multiple Modal Support
+- Accessibility Improvements
+- Dark Mode Compatibility
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+## 👨‍💻 Author
+
+**Ashish Singh**
+
+- GitHub: https://github.com/Aashish-singh01
+- LinkedIn: https://www.linkedin.com/in/ashish-singh-0aa560281/
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub!
+
+### 🔗 More React Projects
+
+This project is part of my **25 React Projects Collection**, where I build practical React applications to strengthen my React and Frontend Development skills.
+
+👉 Main Repository: https://github.com/Aashish-singh01/25-react-projects

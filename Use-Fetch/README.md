@@ -1,16 +1,116 @@
-# React + Vite
+# Use Fetch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project that demonstrates how to fetch and display data from an external API using the Fetch API and React Hooks.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add your deployed link here:
 
-## React Compiler
+```bash
+https://your-live-demo-link.com
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+```bash
+https://github.com/Aashish-singh01/25-react-projects/tree/main/Use-Fetch
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 Overview
+
+This project showcases how to:
+
+- Fetch data from an external API
+- Handle loading states
+- Display fetched data dynamically
+- Manage component state using React Hooks
+- Use `useEffect()` for API calls
+
+Fetching data from APIs is one of the most common tasks in React applications, and this project provides a simple implementation using the native Fetch API. :contentReference[oaicite:0]{index=0}
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- Fetch API
+- CSS
+- Vite
+
+## ✨ Features
+
+- API data fetching
+- Dynamic UI updates
+- Loading indicator
+- Error handling
+- Responsive design
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Aashish-singh01/25-react-projects.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd 25-react-projects/Use-Fetch
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
+
+```bash
+Use-Fetch/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── README.md
+```
+
+## 🔍 Learning Outcomes
+
+Through this project, I learned:
+
+- Working with APIs in React
+- Using Fetch API for HTTP requests
+- Managing asynchronous operations
+- State management with Hooks
+- Handling loading and error states
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👨‍💻 Author
+
+**Ashish Singh**
+
+- GitHub: https://github.com/Aashish-singh01
+- LinkedIn: Add your LinkedIn profile link here
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub.

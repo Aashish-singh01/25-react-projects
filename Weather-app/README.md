@@ -1,16 +1,65 @@
-# React + Vite
+# React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A simple and responsive weather application built with React and Vite. It allows users to search for real-time weather information for any city, utilizing the OpenWeatherMap API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+-   **Real-time Weather Data:** Fetches and displays current temperature, weather description, humidity, and wind speed.
+-   **City Search:** Allows users to input a city name to get its current weather conditions.
+-   **Dynamic Display:** The UI updates with the weather information for the searched city.
+-   **Loading Indicator:** Shows a "Loading..." message while fetching data from the API.
+-   **Date Display:** Shows the current date.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+-   React
+-   Vite
+-   JavaScript
+-   CSS
+-   OpenWeatherMap API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup and Installation
+
+To get this project up and running on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/aashish-singh01/25-react-projects.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd 25-react-projects/Weather-app
+    ```
+
+3.  **Install the necessary dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Create an Environment File:**
+    This project requires an API key from [OpenWeatherMap](https://openweathermap.org/api) to function.
+    
+    -   Create a `.env` file in the root of the `Weather-app` directory.
+    -   Add your API key to this file in the following format:
+        ```
+        VITE_WEATHER_API_KEY=YOUR_API_KEY_HERE
+        ```
+    -   Replace `YOUR_API_KEY_HERE` with your actual OpenWeatherMap API key.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in development mode. Open your browser and navigate to the local URL provided in the terminal (usually `http://localhost:5173`) to see the application.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### `npm run preview`
+
+This command will serve the production build from the `dist` folder, allowing you to preview the final application locally.
