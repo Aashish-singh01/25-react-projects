@@ -46,7 +46,7 @@ It allows users to generate random colors in both **HEX** and **RGB** formats.
 
 ## 🌐 Live Demo
 
-👉 [Live link](https://25-react-projects-rose.vercel.app/)
+👉 [Click Here to View Live Project](https://25-react-projects-rose.vercel.app/)
 
 ---
 
