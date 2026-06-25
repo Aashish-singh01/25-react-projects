@@ -6,21 +6,21 @@ A simple React application that allows users to search GitHub profiles and view 
 
 ## 🚀 Features
 
-* 🔎 Search GitHub users by username
-* 👤 Display profile image and name
-* 📊 Show followers, following, and repositories
-* 📅 Show account creation date
-* ⏳ Loading state handling
-* 🌐 Fetch data from GitHub API
+- 🔎 Search GitHub users by username
+- 👤 Display profile image and name
+- 📊 Show followers, following, and repositories
+- 📅 Show account creation date
+- ⏳ Loading state handling
+- 🌐 Fetch data from GitHub API
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React
-* JavaScript (ES6)
-* CSS
-* GitHub REST API
+- React
+- JavaScript (ES6)
+- CSS
+- GitHub REST API
 
 ---
 
@@ -43,6 +43,10 @@ src/
 4. Profile information is displayed dynamically
 
 ---
+
+## 🚀 Live Demo
+
+- **Live Website:** https://github-finder-ruddy-phi.vercel.app/
 
 ## 📡 API Used
 
@@ -82,21 +86,19 @@ npm run dev
 
 ## 🧠 Concepts Used
 
-* useState
-* useEffect
-* API Fetching
-* Conditional Rendering
-* Props
-* Async/Await
+- useState
+- useEffect
+- API Fetching
+- Conditional Rendering
+- Props
+- Async/Await
 
 ---
 
 ## 🎯 Future Improvements
 
-* Error handling for invalid usernames
-* Dark mode
-* Search on Enter key
-* Better UI animations
-* Responsive design improvements
-
-
+- Error handling for invalid usernames
+- Dark mode
+- Search on Enter key
+- Better UI animations
+- Responsive design improvements

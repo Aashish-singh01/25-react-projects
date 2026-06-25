@@ -6,9 +6,10 @@ A React project that demonstrates how to build a **Custom Tabs Component**, allo
 
 Add your deployed project link here:
 
-```bash
-https://your-live-demo-link.com
-```
+## 🚀 Live Demo
+
+- **Live Website:**  https://custom-tabs-psi.vercel.app/
+
 
 ## 📂 GitHub Repository
 

@@ -4,11 +4,9 @@ A React project that demonstrates an autocomplete search functionality, providin
 
 ## 🚀 Live Demo
 
-Add your deployed project link here:
+- **Live Website:** https://search-auto-complete-xi.vercel.app/
 
-```bash
-https://your-live-demo-link.com
-```
+---
 
 ## 📂 GitHub Repository
 
@@ -43,8 +41,6 @@ As the user types into the search input, the application filters available data 
 - JavaScript (ES6+)
 - CSS
 - Vite
-
-
 
 ## ⚙️ Installation
 

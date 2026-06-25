@@ -9,20 +9,20 @@ It uses a **custom hook (`useLocalStorage`)** to store the selected theme in the
 
 ## 🚀 Features
 
-* 🌗 Toggle between Light and Dark mode
-* 💾 Theme preference saved in localStorage
-* ⚛️ Custom React Hook (`useLocalStorage`)
-* 🔁 Persistent UI state after refresh
-* 🎯 Simple and clean UI
+- 🌗 Toggle between Light and Dark mode
+- 💾 Theme preference saved in localStorage
+- ⚛️ Custom React Hook (`useLocalStorage`)
+- 🔁 Persistent UI state after refresh
+- 🎯 Simple and clean UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React.js
-* JavaScript (ES6+)
-* CSS
-* Browser LocalStorage API
+- React.js
+- JavaScript (ES6+)
+- CSS
+- Browser LocalStorage API
 
 ---
 
@@ -39,28 +39,23 @@ src/
 
 ## 💡 How It Works
 
-* `useLocalStorage` hook manages state + localStorage sync
-* When user clicks **Change Theme**, state updates
-* Theme value (`light` / `dark`) is stored in localStorage
-* On reload, stored theme is automatically applied
+- `useLocalStorage` hook manages state + localStorage sync
+- When user clicks **Change Theme**, state updates
+- Theme value (`light` / `dark`) is stored in localStorage
+- On reload, stored theme is automatically applied
 
----
+## 🚀 Live Demo
 
-## 🌍 Deployment
-
-This project can be deployed using:
-
-* Vercel
-* Netlify
+- **Live Website:** https://dark-light-mode-bay-psi.vercel.app/
 
 ---
 
 ## 🎯 Learning Outcomes
 
-* Creating and using custom React hooks
-* Managing persistent state with localStorage
-* Handling side effects using `useEffect`
-* Building reusable logic in React
+- Creating and using custom React hooks
+- Managing persistent state with localStorage
+- Handling side effects using `useEffect`
+- Building reusable logic in React
 
 ---
 

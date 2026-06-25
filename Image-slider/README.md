@@ -7,22 +7,22 @@ It fetches images from an API and allows users to navigate through them using ar
 
 ## 🚀 Features
 
-* 📡 Fetch images from API
-* ⬅️➡️ Previous / Next navigation
-* 🔘 Clickable indicators (dots)
-* 🔄 Infinite looping (circular navigation)
-* ⏳ Loading state handling
-* ❌ Error handling
-* 🎯 Smooth user interaction
+- 📡 Fetch images from API
+- ⬅️➡️ Previous / Next navigation
+- 🔘 Clickable indicators (dots)
+- 🔄 Infinite looping (circular navigation)
+- ⏳ Loading state handling
+- ❌ Error handling
+- 🎯 Smooth user interaction
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React (useState, useEffect)
-* JavaScript (ES6)
-* CSS
-* React Icons
+- React (useState, useEffect)
+- JavaScript (ES6)
+- CSS
+- React Icons
 
 ---
 
@@ -38,30 +38,25 @@ src/
 
 ## ⚙️ How It Works
 
-* Images are fetched using `fetch()` inside `useEffect`
-* State management:
+- Images are fetched using `fetch()` inside `useEffect`
+- State management:
+  - `image` → stores fetched images
+  - `currentSlide` → tracks active image index
+  - `loading` → handles loading state
+  - `errorMsg` → handles API errors
 
-  * `image` → stores fetched images
-  * `currentSlide` → tracks active image index
-  * `loading` → handles loading state
-  * `errorMsg` → handles API errors
-* Navigation:
+- Navigation:
+  - Left arrow → previous image
+  - Right arrow → next image
 
-  * Left arrow → previous image
-  * Right arrow → next image
-* Indicators (dots):
-
-  * Click to jump to specific image
-
----
-
-## 📸 Preview
-
-* Displays one image at a time
-* Navigate using arrows or dots
-* Automatically loops from last → first and first → last
+- Indicators (dots):
+  - Click to jump to specific image
 
 ---
+
+## 🚀 Live Demo
+
+- **Live Website:** https://image-slider-omega.vercel.app/
 
 ## ▶️ Run Locally
 
@@ -103,11 +98,11 @@ onClick={() => setCurrentSlide(index)}
 
 ## 🎯 Future Improvements
 
-* 🔄 Auto-play slider
-* ⏸️ Pause on hover
-* 🎞️ Smooth transition animations
-* 📱 Touch swipe support (mobile)
-* 🎨 Better UI design
+- 🔄 Auto-play slider
+- ⏸️ Pause on hover
+- 🎞️ Smooth transition animations
+- 📱 Touch swipe support (mobile)
+- 🎨 Better UI design
 
 ---
 

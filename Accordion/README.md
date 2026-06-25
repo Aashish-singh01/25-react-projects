@@ -43,9 +43,12 @@ It allows users to expand and collapse content with two different modes.
 
 ---
 
-## 🌐 Live Demo
 
-👉 [Click Here to View Live Project](https://project-1-accordion.vercel.app/)
+
+## 🚀 Live Demo
+
+- **Live Website:**  https://project-1-accordion.vercel.app/
+
 
 ---
 

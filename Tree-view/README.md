@@ -9,20 +9,20 @@ It supports expandable and collapsible menu items with nested children.
 
 ## 🚀 Features
 
-* 📂 Nested menu structure (multi-level)
-* ➕ Expand / ➖ Collapse functionality
-* 🔁 Recursive component rendering
-* ⚛️ Built with React functional components & hooks
-* 🎨 Clean and simple UI
+- 📂 Nested menu structure (multi-level)
+- ➕ Expand / ➖ Collapse functionality
+- 🔁 Recursive component rendering
+- ⚛️ Built with React functional components & hooks
+- 🎨 Clean and simple UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React.js
-* JavaScript (ES6+)
-* CSS
-* React Icons
+- React.js
+- JavaScript (ES6+)
+- CSS
+- React Icons
 
 ---
 
@@ -42,10 +42,10 @@ src/
 
 ## ⚙️ How It Works
 
-* `MenuList` → loops through menu data
-* `MenuItem` → renders each item
-* Uses `useState` to toggle visibility of children
-* Recursively renders nested menus
+- `MenuList` → loops through menu data
+- `MenuItem` → renders each item
+- Uses `useState` to toggle visibility of children
+- Recursively renders nested menus
 
 ---
 
@@ -60,18 +60,18 @@ npm run dev
 
 ---
 
-## 🌍 Deployment
+## 🚀 Live Demo
 
-This project is deployed using Vercel.
+**Live Website:** https://tree-view-eta-eight.vercel.app/
 
 ---
 
 ## 🎯 Learning Outcomes
 
-* Understanding recursion in React
-* Managing state with `useState`
-* Handling dynamic UI rendering
-* Working with nested data structures
+- Understanding recursion in React
+- Managing state with `useState`
+- Handling dynamic UI rendering
+- Working with nested data structures
 
 ---
 

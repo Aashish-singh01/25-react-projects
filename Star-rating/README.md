@@ -7,20 +7,20 @@ Users can hover over stars to preview ratings and click to select their rating.
 
 ## 🚀 Features
 
-* ⭐ Dynamic star rendering
-* 🖱️ Hover effect (preview rating)
-* 🎯 Click to set rating
-* 🔄 Real-time UI update
-* 🎨 Clean and simple UI
+- ⭐ Dynamic star rendering
+- 🖱️ Hover effect (preview rating)
+- 🎯 Click to set rating
+- 🔄 Real-time UI update
+- 🎨 Clean and simple UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React (useState)
-* JavaScript (ES6)
-* CSS
-* React Icons
+- React (useState)
+- JavaScript (ES6)
+- CSS
+- React Icons
 
 ---
 
@@ -36,25 +36,23 @@ src/
 
 ## ⚙️ How It Works
 
-* `useState` is used to manage:
+- `useState` is used to manage:
+  - `rating` → selected rating
+  - `hover` → temporary hover state
 
-  * `rating` → selected rating
-  * `hover` → temporary hover state
-* Stars are generated dynamically using an array loop
-* Mouse events control the behavior:
-
-  * `onMouseMove` → preview rating
-  * `onClick` → set rating
-  * `onMouseLeave` → reset hover to selected rating
+- Stars are generated dynamically using an array loop
+- Mouse events control the behavior:
+  - `onMouseMove` → preview rating
+  - `onClick` → set rating
+  - `onMouseLeave` → reset hover to selected rating
 
 ---
 
-## 📸 Preview
+## 🚀 Live Demo
 
-Star rating system where:
+- **Live Website:** https://star-rating-smoky.vercel.app/
 
-* Hover highlights stars ⭐
-* Click locks the rating 🎯
+---
 
 ---
 
@@ -88,13 +86,11 @@ npm run dev
 
 ## 🎯 Future Improvements
 
-* Half star rating ⭐✨
-* Save rating to backend/API
-* Add animations
-* Mobile responsiveness improvements
+- Half star rating ⭐✨
+- Save rating to backend/API
+- Add animations
+- Mobile responsiveness improvements
 
-live demo   (https://star-rating-smoky.vercel.app/)
-
-
+live demo (https://star-rating-smoky.vercel.app/)
 
 This project is open-source and available under the MIT License.

@@ -4,17 +4,7 @@ A React project that demonstrates how to fetch and display data from an external
 
 ## 🚀 Live Demo
 
-Add your deployed link here:
-
-```bash
-https://your-live-demo-link.com
-```
-
-## 📂 GitHub Repository
-
-```bash
-https://github.com/Aashish-singh01/25-react-projects/tree/main/Use-Fetch
-```
+## **Live Website:** https://use-fetch-theta.vercel.app/
 
 ## 📖 Overview
 

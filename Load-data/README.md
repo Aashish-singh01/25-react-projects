@@ -11,54 +11,54 @@ It fetches product data from an API and displays them in a grid layout. Users ca
 
 ### 🔹 Load Products from API
 
-* Fetches product data from an external API
-* Displays products with image and title
+- Fetches product data from an external API
+- Displays products with image and title
 
 ---
 
 ### 🔹 Load More Functionality
 
-* Initially loads 20 products
-* Clicking **"Load More Product"** loads the next set of products
-* New products are appended to the existing list
+- Initially loads 20 products
+- Clicking **"Load More Product"** loads the next set of products
+- New products are appended to the existing list
 
 ---
 
 ### 🔹 Disable Button at Limit
 
-* After loading **100 products**, the button gets disabled
-* Displays message: *"You have reached 100 products"*
+- After loading **100 products**, the button gets disabled
+- Displays message: _"You have reached 100 products"_
 
 ---
 
 ### 🔹 Loading State
 
-* Shows a loading message while fetching data
-* Improves user experience
+- Shows a loading message while fetching data
+- Improves user experience
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React
-* JavaScript (ES6+)
-* CSS
-* API (https://dummyjson.com/products)
+- React
+- JavaScript (ES6+)
+- CSS
+- API (https://dummyjson.com/products)
 
 ---
 
 ## 📸 Functionality
 
-* API data fetching using `fetch`
-* State management using `useState`
-* Side effects handled using `useEffect`
-* Conditional rendering for loading & button state
+- API data fetching using `fetch`
+- State management using `useState`
+- Side effects handled using `useEffect`
+- Conditional rendering for loading & button state
 
 ---
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
-👉 [Click Here to View Live Project](YOUR_LIVE_LINK_HERE)
+- **Live Website:** https://load-more-data-one.vercel.app/
 
 ---
 
@@ -76,10 +76,10 @@ npm run dev
 
 ## 🎯 Learning Outcome
 
-* Learned API integration in React
-* Implemented pagination using "Load More" logic
-* Managed multiple states effectively
-* Improved understanding of React hooks
+- Learned API integration in React
+- Implemented pagination using "Load More" logic
+- Managed multiple states effectively
+- Improved understanding of React hooks
 
 ---
 

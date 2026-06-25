@@ -6,21 +6,21 @@ A simple and interactive **Tic Tac Toe game** built with React where two players
 
 ## 🚀 Features
 
-* ❌⭕ Two-player gameplay
-* 🎯 Winner detection logic
-* 🤝 Draw detection
-* 🔄 Restart game functionality
-* ⚡ Dynamic game status updates
-* 🧠 Uses React Hooks (`useState`, `useEffect`)
-* 🎨 Clean UI
+- ❌⭕ Two-player gameplay
+- 🎯 Winner detection logic
+- 🤝 Draw detection
+- 🔄 Restart game functionality
+- ⚡ Dynamic game status updates
+- 🧠 Uses React Hooks (`useState`, `useEffect`)
+- 🎨 Clean UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React
-* JavaScript (ES6)
-* CSS
+- React
+- JavaScript (ES6)
+- CSS
 
 ---
 
@@ -41,26 +41,26 @@ src/
 1. Game starts with Player **X**
 2. Players take turns clicking squares
 3. After every move:
+   - Winner logic checks all winning patterns
+   - Draw condition is checked
+   - Game status updates automatically
 
-   * Winner logic checks all winning patterns
-   * Draw condition is checked
-   * Game status updates automatically
 4. If a winner exists:
+   - Displays winner message
 
-   * Displays winner message
 5. Restart button resets the board
 
 ---
 
 ## 🧠 Concepts Used
 
-* useState
-* useEffect
-* Conditional Rendering
-* Event Handling
-* Array Methods
-* Component Reusability
-* Game Logic Implementation
+- useState
+- useEffect
+- Conditional Rendering
+- Event Handling
+- Array Methods
+- Component Reusability
+- Game Logic Implementation
 
 ---
 
@@ -70,18 +70,22 @@ The game checks these combinations:
 
 ```javascript
 [
- [0,1,2],
- [3,4,5],
- [6,7,8],
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
 
- [0,3,6],
- [1,4,7],
- [2,5,8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
 
- [0,4,8],
- [2,4,6]
-]
+  [0, 4, 8],
+  [2, 4, 6],
+];
 ```
+
+## 🚀 Live Demo
+
+**Live Website:** https://tic-tac-toe-drab-five-87.vercel.app/
 
 ---
 
@@ -110,23 +114,6 @@ Run project
 ```bash
 npm run dev
 ```
-
----
-
-## 🎯 Future Improvements
-
-* 🤖 Add AI opponent
-* 🎵 Add sound effects
-* 🎨 Add animations
-* 🌙 Dark mode
-* 📱 Better responsive design
-* 🏆 Scoreboard tracking
-
----
-
-## 📸 Preview
-
-Play the classic Tic Tac Toe game with a clean and interactive interface.
 
 ---
 

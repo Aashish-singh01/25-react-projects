@@ -9,20 +9,20 @@ It fetches data from an API and displays a **dynamic scroll progress bar** that 
 
 ## 🚀 Features
 
-* 📡 Fetch data from API
-* 📜 Dynamic scroll progress indicator
-* ⚡ Real-time scroll tracking
-* 🔄 Responsive UI updates
-* ⚛️ Built using React Hooks (`useState`, `useEffect`)
+- 📡 Fetch data from API
+- 📜 Dynamic scroll progress indicator
+- ⚡ Real-time scroll tracking
+- 🔄 Responsive UI updates
+- ⚛️ Built using React Hooks (`useState`, `useEffect`)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React.js
-* JavaScript (ES6+)
-* CSS
-* Fetch API
+- React.js
+- JavaScript (ES6+)
+- CSS
+- Fetch API
 
 ---
 
@@ -38,29 +38,30 @@ src/
 
 ## 💡 How It Works
 
-* Data is fetched from an API using `fetch()`
-* Products are stored in state and rendered dynamically
-* Scroll event listener tracks user scroll position
-* Scroll percentage is calculated and applied to progress bar width
+- Data is fetched from an API using `fetch()`
+- Products are stored in state and rendered dynamically
+- Scroll event listener tracks user scroll position
+- Scroll percentage is calculated and applied to progress bar width
 
 ---
 
-## 🌍 Deployment
+---
 
-This project can be deployed using:
+## 🚀 Live Demo
 
-* Vercel
-* Netlify
+- **Live Website:** https://scrool-indicator.vercel.app/
+
+---
 
 ---
 
 ## 🎯 Learning Outcomes
 
-* Working with APIs in React
-* Managing loading and error states
-* Handling scroll events
-* Creating dynamic UI based on user interaction
-* Using `useEffect` for side effects
+- Working with APIs in React
+- Managing loading and error states
+- Handling scroll events
+- Creating dynamic UI based on user interaction
+- Using `useEffect` for side effects
 
 ---
 

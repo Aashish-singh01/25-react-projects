@@ -2,13 +2,14 @@
 
 A React project that demonstrates how to create a **Custom Modal Popup Component**. The modal can be opened and closed dynamically, providing a clean and interactive way to display additional content, notifications, forms, or important information without navigating away from the current page.
 
+
+
 ## 🚀 Live Demo
 
-Add your deployed project link here:
+- **Live Website:** https://custom-model-popup.vercel.app/
 
-```bash
-https://your-live-demo-link.com
-```
+
+
 
 ## 📂 GitHub Repository
 
